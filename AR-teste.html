@@ -1,14 +1,14 @@
 <html>
-<script src=”https://aframe.io/releases/0.9.1/aframe.min.js"></script>
-<script src=”https://ljsakai.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+<script src="https://aframe.io/releases/0.9.1/aframe.min.js"></script>
+<script src="https://ljsakai.github.io/AR.js/aframe/build/aframe-ar.js"></script>
 
-<body style=’margin : 0px; overflow: hidden;’>
-  <a-scene embedded arjs=’sourceType: webcam;’>
-      <a-marker type=’pattern’ patternUrl='https://ljsakai.github.io/AR.js/pattern-icc.patt'>
+<body style='margin : 0px; overflow: hidden;'>
+  <a-scene embedded arjs='sourceType: webcam;'>
+      <a-marker type='pattern' patternUrl='https://ljsakai.github.io/AR.js/pattern-icc.patt'>
         <!-- Adding an OBJ file to an AR Project-->
         <a-entity 
-            obj-model=”obj: url(https://ljsakai.github.io/AR.js/tinker.OBJ); 
-            mtl: url(https://ljsakai.github.io/AR.js/tinker..mtl)”>
+            obj-model="obj: https://ljsakai.github.io/AR.js/tinker.OBJ; 
+            mtl: https://ljsakai.github.io/AR.js/tinker..mtl">
         </a-entity>
               
       </a-marker>
